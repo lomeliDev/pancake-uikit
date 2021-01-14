@@ -36,7 +36,7 @@ const Nav: React.FC<NavProps> = ({
   const [isOpened, setIsOpened] = useState(false);
   return (
     <StyledNav>
-      <Link to="/" aria-label="Pancake home page" style={{ marginRight: "16px" }}>
+      <Link to="/" aria-label="Exchange home page" style={{ marginRight: "16px" }}>
         <Logo isDark={isDark} width="160px" height="100%" />
       </Link>
       <MobileOnlyButton aria-label="Open mobile menu" onClick={() => setIsOpened((prevState) => !prevState)}>
